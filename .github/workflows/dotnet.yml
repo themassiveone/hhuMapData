@@ -22,4 +22,8 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity 
+
+
+- name: Badge Action
+  uses: emibcn/badge-action@v1.2.4
